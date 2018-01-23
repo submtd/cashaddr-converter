@@ -27,5 +27,6 @@ class CashaddrConverterServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        require __DIR__ . '/../Helpers.php';
     }
 }
