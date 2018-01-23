@@ -1,0 +1,26 @@
+{
+    "name": "submtd/cashaddr-converter",
+    "description": "Converts old Bitcoin Cash addresses to the new CashAddr format and vice versa",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Harmeyer",
+            "email": "harmeyersteve@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Submtd\\CashAddrConverter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Submtd\\CashAddrConverter\\Providers\\CashAddrConverterServiceProvider",
+            ]
+        }
+    }
+}
