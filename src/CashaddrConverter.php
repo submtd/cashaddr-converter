@@ -1,8 +1,8 @@
 <?php
 
-namespace Submtd\CashAddrConverter;
+namespace Submtd\CashaddrConverter;
 
-class CashAddrConverter
+class CashaddrConverter
 {
     public function hello()
     {

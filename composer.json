@@ -13,16 +13,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Submtd\\CashAddrConverter\\": "src/"
+            "Submtd\\CashaddrConverter\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Submtd\\CashAddrConverter\\Providers\\CashAddrConverterServiceProvider"
+                "Submtd\\CashaddrConverter\\Providers\\CashaddrConverterServiceProvider"
             ],
             "aliases": {
-                "CashAddrConverter": "Submtd\\CashAddrConverter\\Facades\\CashAddrConverterFacade"
+                "CashaddrConverter": "Submtd\\CashaddrConverter\\Facades\\CashaddrConverterFacade"
             }
         }
     }

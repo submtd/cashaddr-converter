@@ -1,10 +1,10 @@
 <?php
 
-namespace Submtd\CashAddrConverter\Facades;
+namespace Submtd\CashaddrConverter\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class CashAddrConverterFacade extends Facade
+class CashaddrConverterFacade extends Facade
 {
     /**
      * returns the facade accessor
@@ -13,6 +13,6 @@ class CashAddrConverterFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'cash-addr-converter';
+        return 'cashaddr-converter';
     }
 }
