@@ -19,8 +19,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Submtd\\CashAddrConverter\\Providers\\CashAddrConverterServiceProvider",
-            ]
+                "Submtd\\CashAddrConverter\\Providers\\CashAddrConverterServiceProvider"
+            ],
+            "aliases": {
+                "CashAddrConverter": "Submtd\\CashAddrConverter\\Facades\\CashAddrConverterFacade"
+            }
         }
     }
 }

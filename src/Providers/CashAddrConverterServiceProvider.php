@@ -11,6 +11,16 @@ use Illuminate\Support\ServiceProvider;
 class CashAddrConverterServiceProvider extends ServiceProvider
 {
     /**
+     * The service provider register method
+     *
+     * @return void
+     */
+    public function register()
+    {
+        $this->app->bind('cash-addr-converter', 'Submtd\CashAddrConverter\CashAddrConverter');
+    }
+
+    /**
      * The service provider boot method
      *
      * @return void
